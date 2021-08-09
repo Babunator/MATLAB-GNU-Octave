@@ -9,7 +9,7 @@
 - 0 means false, 1 means true
 - 2 == 2 equals
 - 2 ~= 3 not equals
-- > < bigger/smaller
+- > or < bigger/smaller
 - && means logical AND
 - || means logical OR
 -  xor (x, y)  is true if and only if one of x or y is true
@@ -26,4 +26,6 @@
 ## Extras:
 - % means comment
 -  to change the prompt: PS1('>> ')
+-  randn() gives random numbers
+-  histogram hist(variable)
 
