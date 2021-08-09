@@ -25,6 +25,8 @@ Output: m =  4
 dim_A = size(A)
 Output:  dim_A =
          4   3
+% to only give you the first dimension:
+dim_A = size(A,1)
 
 % Get the dimension of the vector v (mxn)
 dim_v = size(v)
@@ -36,6 +38,9 @@ A_23 = A(2,3)
 Output: A_23 =  6
 
 ```
+%to get the longest dimension of a matric or vector
+length(v)
+
 # Addition and Scalar Multiplication
 
 ```
