@@ -37,9 +37,21 @@ Output:  dim_v =
 A_23 = A(2,3)
 Output: A_23 =  6
 
+% colon means every element along that row or column
+A_23 = A(2,:)
+Output: A_23 =  4,5,6
 ```
 %to get the longest dimension of a matric or vector
 length(v)
+
+%adding a colum vector to a matrix to the right
+A = [A[1,2,3]]
+
+%taking two matrices and just concatenating onto each other. add B to the right from A
+C= [A B]
+
+%taking two matrices and just concatenating onto each other. add B below from A
+C= [A;B]
 
 # Addition and Scalar Multiplication
 
