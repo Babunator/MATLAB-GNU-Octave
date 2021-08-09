@@ -1,0 +1,10 @@
+- PWD command shows the current directory, or the current path that Octave is in.
+- cd  change directory.  e.g. cd 'C:/Users/Anna/Desktop'
+- ls command: ls will list the directories on my current directory and the files on it
+- to load data into octave: load example-data.dat
+- who command shows what variables Octave has in memory ccurrently
+- whos command gives you a more detailed view (lists my variables with the sizes, type of data)
+- clear command. delete variables e.g. clear A
+- just clear clears every variable
+- save test.mat A (saves as a compressed binary file)
+- for a readable ascii text format: save hello.text v -ascii
